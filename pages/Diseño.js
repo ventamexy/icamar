@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EnergiaBiomasica = () => {
+const Diseño = () => {
   return (
     <>
       <div className="about-box-main">
@@ -96,4 +96,4 @@ const EnergiaBiomasica = () => {
   );
 }
 
-export default EnergiaBiomasica;
+export default Diseño;
