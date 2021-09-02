@@ -11,11 +11,11 @@ export default function HeroSlider() {
               <div className="col-md-12">
                 <h1 className="m-b-20">
                   <strong>
-                    <br />
+                    OFRECEMOS TRABAJOS DE ALTA CALIDAD<br />
                   </strong>
                 </h1>
                 <p className="m-b-40">
-                  
+
                 </p>
                 <p>
                   <a className="btn hvr-hover" href="/contact-us">

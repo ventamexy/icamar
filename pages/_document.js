@@ -15,14 +15,14 @@ class MyDocument extends Document {
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <title>Plafonmexy</title>
+          <title>ICAMAR</title>
           <meta name="keywords" content="" />
           <meta name="description" content="" />
           <meta name="author" content="" />
 
           <link
             rel="shortcut icon"
-            href="images/logos/logoTitle.png"
+            href="images/logos/.png"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="" />

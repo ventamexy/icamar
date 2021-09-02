@@ -71,7 +71,7 @@ export default function TopBar() {
                   {/* <a href="#">Contact Us</a> */}
                 </li>
                 <li>
-                  <a href="mailto:info@.com"><i class="fas fa-envelope"/>{" "}info@.com</a>
+                  <a href="mailto:info@icamar.com"><i class="fas fa-envelope"/>{" "}info@icamar.com</a>
                   {/* <a href="#">Contact Us</a> */}
                 </li>
               </ul>
