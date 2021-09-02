@@ -169,7 +169,7 @@ const Info = () => {
                     </div> */}
                 </div>
             </section>
-            <FlipCard />
+            {/* <FlipCard /> */}
             <section className="section" style={{
                 backgroundImage: 'linear-gradient(180deg,#ffffff 28%,#f2f2f2 100%)!important;',
 
