@@ -5,7 +5,7 @@ export default function HeroSlider() {
     <div id="slides-shop" className="cover-slides">
       <ul className="slides-container">
         <li className="text-right">
-          <img src="" alt="" />
+          <img src="https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" />
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -27,13 +27,13 @@ export default function HeroSlider() {
           </div>
         </li>
         <li className="text-left">
-          <img src="" alt="" />
+          <img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" />
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h1 className="m-b-20">
                   <strong>
-                    <br />
+                    Transformamos las ideas en grandes proyectos<br />
                   </strong>
                 </h1>
                 <p className="m-b-40">

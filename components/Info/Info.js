@@ -25,7 +25,7 @@ const Info = () => {
                         textAlign: 'left'
                     }}>
                         <span>
-                            
+                        Construcción
                         </span>
                     </h2>
                     <div className="row my-5 wow bounceInDown ">
@@ -43,7 +43,7 @@ const Info = () => {
                                 textAlign: 'justify',
                                 fontSize: '1.5em'
                             }}>
-                                
+                                Contribuimos al éxito de nuestros clientes desempeñándonos mediante nuestros recursos, procesos y buenas prácticas marcadas por los lineamientos por arriba del estándar de la industria. Adicionalmente somos responsables con una consciencia social y ambiental que apoyan al bienestar de México.
                             </p><br />
 
                         </div>
@@ -52,13 +52,13 @@ const Info = () => {
 
                         >
 
-                            <div className="banner-frame "
+                            <div className="banner-frame img-thumbnail"
                                 style={{
                                     // border: '2px solid #CCC',
                                 }}>
                                 <img
                                     className="img-fluid "
-                                    src=""
+                                    src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                                     alt=""
                                 />
                             </div>
@@ -72,7 +72,7 @@ const Info = () => {
                         textAlign: 'left'
                     }}>
                         <span>
-                           
+                        Capacidades
                         </span>
                     </h2>
 
@@ -84,7 +84,7 @@ const Info = () => {
                                 }}>
                                 <img
                                     className="img-fluid img-thumbnail"
-                                    src=""
+                                    src="https://images.pexels.com/photos/4025501/pexels-photo-4025501.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     alt=""
                                 />
                             </div>
@@ -103,57 +103,61 @@ const Info = () => {
                                 textAlign: 'justify',
                                 fontSize: '1.5em'
                             }}>
-                                
+                                Nuestra capacidad como constructora, no está limitada, hemos realizado proyectos de hasta 200,000 m2. Contamos con el personal necesario para atender las necesidades del cliente.
+                                <br />
+                                Tenemos la capacidad de realizar proyectos especiales, tanto como en magnitud, impacto, complejidad o con requerimientos especiales.
+                                <br />
+                                Nuestro compromiso es una alta rentabilidad en los proyectos, usando de manera eficiente los recursos y adicionando un estándar alto de calidad, siendo una empresa socialmente responsable y con consciencia ambiental.
                             </p><br />
                             <p style={{
                                 color: '#fff',
                                 textAlign: 'justify',
                                 fontSize: '1.5em'
                             }}>
-                                
+
                             </p><br />
                         </div>
                     </div>
-                    <h2 className="noo-sh-title" style={{
+                    {/* <h2 className="noo-sh-title" style={{
                         color: '#fff',
                         fontSize: '50px',
                         textAlign: 'left'
                     }}>
                         <span>
-                           
-                        </span>
-                    </h2>
 
-                    <div className="row my-5 wow bounceInDown ">
+                        </span>
+                    </h2> */}
+
+                    {/* <div className="row my-5 wow bounceInDown ">
 
                         <div className="col-lg-6">
-                            {/* <p style={{
+                            <p style={{
                                 color: '#fff',
                                 textAlign: 'left',
                                 fontSize: '1.5em'
 
                             }}>
 
-                            </p><br /> */}
-                            <p style={{
-                                color: '#fff',
-                                textAlign: 'justify',
-                                fontSize: '1.5em'
-                            }}>
-                               
                             </p><br />
                             <p style={{
                                 color: '#fff',
                                 textAlign: 'justify',
                                 fontSize: '1.5em'
                             }}>
-                                
+
+                            </p><br />
+                            <p style={{
+                                color: '#fff',
+                                textAlign: 'justify',
+                                fontSize: '1.5em'
+                            }}>
+
                             </p><br />
                         </div>
                         <div className="col-lg-6">
                             <div className="banner-frame"
                                 style={{
-                                    // border: '2px solid #CCC',
+                                    border: '2px solid #CCC',
                                 }}>
                                 <img
                                     className="img-fluid img-thumbnail"
@@ -162,7 +166,7 @@ const Info = () => {
                                 />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             <FlipCard />
