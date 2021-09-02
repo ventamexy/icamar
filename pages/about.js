@@ -24,26 +24,32 @@ export default function About() {
       <div className="about-box-main">
         <div className="container">
           <h2 className="noo-sh-title">
-            <span></span>
+            <span>NOSOTROS</span>
           </h2>
           <div className="row">
             <div className="col-lg-6">
               <div className="banner-frame">
                 <img
                   className="img-thumbnail img-fluid"
-                  src=""
+                  src="https://images.pexels.com/photos/3771045/pexels-photo-3771045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                   alt=""
                 />
               </div>
             </div>
             <div className="col-lg-6">
               <p className="noo-sh-title">
-
+                Misión
               </p>
               <p>
-              
+                Bien y a la primera, garantizado nuestro trabajo, con la calidad que nos distingue, apoyándonos en nuestra experiencia de más de 30 años en el mercado laboral, teniendo como referencia nuestros trabajos realizados a las distintas empresas y organizaciones , tanto públicas como privadas.
               </p>
-            
+              <p className="noo-sh-title">
+                Visión
+              </p>
+              <p>
+                Ser siempre de las primeras empresas en el rubro de la construcción, manteniendo nuestros estándares de calidad a la vanguardia, yendo de la mano con el avance tecnológico en todos nuestros proyectos y mantenernos en constante crecimiento ingresando a nuevos mercados, incluso internacionales.
+              </p>
+
             </div>
             {/* <div className="col-lg-6">
               <div className="banner-frame">

@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-widget">
-                  <h4>SOBRE PLAFONMEXY</h4>
+                  <h4>SOBRE ICAMAR</h4>
                   <p>
                     Nicolás  Bravo 341, Centro, Cd. L. Cárdenas, Mich, Mx.
                     <br />
@@ -77,7 +77,7 @@ export default function Footer() {
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link">
                   <h4>ÚLTIMAS PUBLICACIONES</h4>
-                  <div class="fb-page" data-href="https://www.facebook.com/Plafonmexy-106015155145559" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Plafonmexy-106015155145559" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Plafonmexy-106015155145559">Plafonmexy</a></blockquote></div>
+                 
                   {/* <ul>
                     <li>
                       <a href="#">About Us</a>

@@ -11,7 +11,7 @@ const Info = () => {
 
             <section className="seccion "
                 style={{
-                    background: 'linear-gradient(to left, #1d7562, #10473c);'
+                    background: 'linear-gradient(to left, #fd9900, #955c04);'
                 }}>
                 <div className="contenedor">
                     {/* 
