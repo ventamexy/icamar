@@ -48,7 +48,7 @@ const Terracerías = () => {
                     4.{" "}Infraestructura para dar respuesta integral a las necesidades del proyecto
                   </li>
                   <li>
-                    3.{" "}Respaldo de las mejores marcas de maquinaria e insumos
+                    5.{" "}Respaldo de las mejores marcas de maquinaria e insumos
                   </li>
                 </ul>
               </p>
