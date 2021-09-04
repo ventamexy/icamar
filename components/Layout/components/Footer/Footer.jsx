@@ -77,7 +77,7 @@ export default function Footer() {
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link">
                   <h4>ÚLTIMAS PUBLICACIONES</h4>
-
+                  <div class="fb-page" data-href="https://www.facebook.com/Icamar.Mexico" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Icamar.Mexico" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Icamar.Mexico">Icamar Constructora</a></blockquote></div>
                   {/* <ul>
                     <li>
                       <a href="#">About Us</a>

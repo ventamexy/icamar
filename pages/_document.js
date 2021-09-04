@@ -22,7 +22,7 @@ class MyDocument extends Document {
 
           <link
             rel="shortcut icon"
-            href="images/logos/.png"
+            href="images/logos/logo.png"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="" />
@@ -37,14 +37,19 @@ class MyDocument extends Document {
           <link
             rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
           />
-          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-          
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
 
           <link rel="stylesheet" href="/css/bootstrap.min.css" />
           <link rel="stylesheet" href="/css/style.css" />
           <link rel="stylesheet" href="/css/responsive.css" />
           <link rel="stylesheet" href="/css/custom.css" />
-          {/* <link rel="stylesheet" href="/css/main.css" /> */}
+          {/* <link rel="stylesheet" href="/css/main.css" /> 
+          */}
+           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
         </Head>
         <body>
           <Main />
@@ -53,6 +58,10 @@ class MyDocument extends Document {
           <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
+
+          <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
           {/* <script src="js/wow.min.js"></script> */}
 
@@ -75,6 +84,7 @@ class MyDocument extends Document {
           <script src="/js/contact-form-script.js"></script>
           <script src="/js/custom.js"></script>
           <script src="/js/mapa.js"></script>
+          <script src="/js/swipe.js"></script>
 
 
 

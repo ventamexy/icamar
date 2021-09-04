@@ -21,7 +21,7 @@ const FormWork = () => {
                              <p style={{ color: '#fff' }}>
                              Si deseas unirte al equipo, envía tu CV a los siguientes correos:{" "}<br/>
                         <a href="mailto:info@icamar.com">info@icamar.com</a><br />
-                        <a href="mailto:@construccionlc@yahoo.com">@construccionlc@yahoo.com</a>
+                        <a href="mailto:construccionlc@yahoo.com">construccionlc@yahoo.com</a>
                     </p>
                             {/* <form>
                                 <div className="form-row">
