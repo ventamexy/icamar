@@ -82,9 +82,7 @@ export default function Header() {
                   </ul>
                 </li> */}
                 <li className="nav-item">
-                  <Link href="/galery">
-                    <a className="nav-link">Galeria</a>
-                  </Link>
+                    <a className="nav-link"  href="/galery">Galeria</a>
                 </li>
                 <li className="nav-item">
                   <Link href="/contact-us">
