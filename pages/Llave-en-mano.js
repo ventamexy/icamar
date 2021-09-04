@@ -1,40 +1,49 @@
 import React from 'react';
+import ProductsFeed from "../components/ProductsFeed/ProductsFeed";
 
-const EnergiaGeotermica = () => {
+
+const LlaveEnMano = () => {
   return (
     <>
+      <ProductsFeed />
       <div className="about-box-main">
         <div className="container">
+        <div className="service-block-inner">
+                  {/* <h3>We are Trusted</h3> */}
+                  <p>
+                    Esta solución integral, engloba desde el diseño hasta la construcción y puesta en marcha de las instalaciones.
+                  </p>
+                </div>
           <h2 className="noo-sh-title">
-            <span>¿Qué es la energía hidráulica y cómo se aprovecha?</span>
+            <span>Proyectos llave en mano</span>
           </h2>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-6">
               <div className="banner-frame">
+               
                 <img
                   className="img-thumbnail img-fluid"
-                  src="https://www.factorenergia.com/wp-content/uploads/2021/02/energ%C3%ADa-geot%C3%A9rmica-1.png"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyiuM8odvJPAu_Lf-55B2HeVVZAt4yB08sxg&usqp=CAU"
                   alt=""
-                  width="1000"
-                  style={{ marginBottom: '5em' }}
+                width="400"
                 />
               </div>
             </div>
-            <div className="col-lg-12">
+            <div className="col-lg-6">
               <h2>
-                Energía geotérmica: una energía en potencia
+
               </h2>
               <p>
-                Dentro de las energías alternativas, hay una que podemos encontrar debajo de nuestros pies: la energía geotérmica. Esta energía, que proviene de la Tierra, ¿sabías que tiene suficiente potencia para cubrir la mayoría de nuestras necesidades energé
+                En el desarrollo de los proyectos llave en mano, somos responsables del control total del proyecto de principio a fin y nos permite realizarlos en mejor tiempo.
               </p>
               <p>
-                La energía geotérmica o geotermia, es aquella que se obtiene mediante el aprovechamiento del calor interno de la Tierra. Podemos ver ejemplos de este tipo de energía en las erupciones de los volcanes, el calor que contienen las fuentes calientes naturales o los géiseres.
+                Utilizamos vistas en 3D de diseño detallado para su comprensión en tiempo real. Incorporamos la tecnología al diseño y la capacidad que tiene el cliente, le permite tener decisiones importantes desde esta etapa del proyecto, para asegurarse de la calidad o modificar el proyecto si se requiere.
               </p>
               <h2 className="noo-sh-title">
-                Factorenergia con las energías renovables
+
               </h2>
               <p>
-                Factorenergia apuesta por las energías alternativas, por ese motivo, te damos la posibilidad de contratar un suministro de luz 100% verde para ahorrar energía y dinero a la vez que cuidas del medio ambiente.
+                Aplicamos metodología del PMI con project managers certificados para el control y monitoreo cumpliendo la expectativa del cliente.
               </p>
 
             </div>
@@ -86,4 +95,4 @@ const EnergiaGeotermica = () => {
   );
 }
 
-export default EnergiaGeotermica;
+export default LlaveEnMano;

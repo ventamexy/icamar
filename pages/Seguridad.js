@@ -6,14 +6,14 @@ const EnergiaHidraulica = () => {
       <div className="about-box-main">
         <div className="container">
           <h2 className="noo-sh-title">
-            <span>¿Qué es la energía hidráulica y cómo se aprovecha?</span>
+            <span>Seguridad</span>
           </h2>
           <div className="row">
             <div className="col-lg-12">
               <div className="banner-frame">
                 <img
                   className="img-thumbnail img-fluid"
-                  src="https://www.foronuclear.org/wp-content/uploads/2010/06/planta-hidroelectrica-rio-854x465.jpg"
+                  src="https://concepto.de/wp-content/uploads/2014/01/sseguridad-industrial-1-e1551712014904.jpg"
                   alt=""
                   width="1000"
                   style={{ marginBottom: '5em' }}
@@ -22,15 +22,12 @@ const EnergiaHidraulica = () => {
             </div>
             <div className="col-lg-12">
               <p>
-                De forma indirecta tiene al Sol como origen. La radiación solar en forma de calor evapora el agua de los mares formando las nubes, que a su vez se transformarán en lluvia o en nieve, asegurando así la perennidad del ciclo. Luego, el efecto de la gravedad terrestre permite aprovechar los caudales de agua descendentes gracias a las presas que se construyen para retenerla en embalses o pantanos artificiales. Estos constituyen grandes depósitos energéticos o de abastecimiento.
+                La seguridad de nuestros colaboradores es muy importante, es por eso que contamos con un Sistema de Gestión en Seguridad, Salud y Medio Ambiente, estratégicamente diseñador para cumplir con la normatividad nacional e internacional y garantizar la seguridad de nuestros proyectos.
               </p>
-              <h2>
-              La hidráulica es una fuente de energía renovable y supone el 7% del consumo mundial de energía primaria
-              </h2>
               <p>
-              La mayoría de las presas hidráulicas se destinan a la producción de energía eléctrica utilizando turbinas hidráulicas. Los países con gran potencial hidráulico y que disponen de caudales de ríos constantes y abundantes obtienen la mayor parte de la electricidad en centrales hidráulicas por sus grandes ventajas, entre ellas la de utilizar un recurso natural que solo hay que encauzar y es gratuito. Además puede utilizarse para otros fines, como el abastecimiento humano o el riego. Por otra parte, se trata del único recurso renovable almacenable, por lo que es muy útil para atender inmediatamente puntas de la demanda.
+                Tenemos el compromiso de mantener  en constante capacitación a nuestro personal, fortaleciendo los comportamientos seguros y la participación en la prevención de accidentes.
               </p>
-             
+
             </div>
             {/* <div className="col-lg-6">
               <div className="banner-frame">

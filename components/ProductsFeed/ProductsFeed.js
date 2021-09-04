@@ -4,11 +4,11 @@ import Slider from "react-slick";
 const ProductsFeed = () => {
     const settings = {
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '-620px',
         dots: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 7,
+        speed: 900,
+        slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -18,7 +18,7 @@ const ProductsFeed = () => {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '-200px',
                     slidesToShow: 3
                 }
             },
@@ -38,7 +38,7 @@ const ProductsFeed = () => {
     return (
         <>
             <section className="seccion "
-                style={{ background: 'black' }}
+                // style={{ background: 'black' }}
 
             >
                 <div>
@@ -47,7 +47,15 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://static.grainger.com/rp/s/is/image/Grainger/3AZN8_AS01?$glgmain$"
+                                    src="images/diseños/image 1.png"
+                                    alt=""
+                                    height="300"
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    className="img-fluid"
+                                    src="images/diseños/image 2.png"
                                     alt=""
 
                                 />
@@ -55,7 +63,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://cdn.homedepot.com.mx/productos/140576/140576-d.jpg"
+                                    src="images/diseños/image 3.png"
                                     alt=""
 
                                 />
@@ -63,7 +71,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://www.steren.com.mx/media/catalog/product/cache/b69086f136192bea7a4d681a8eaf533d/image/175659284/reflector-led-de-30-w.jpg"
+                                    src="images/diseños/image 4.png"
                                     alt=""
 
                                 />
@@ -71,7 +79,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://images.todosai.com/1725-home_default/Bateria-AGM-de-12V-9Ah--HP12-9.jpg"
+                                    src="images/diseños/image 5.png"
                                     alt=""
 
                                 />
@@ -79,7 +87,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://calentadoresdelta.com/wp-content/uploads/2018/10/solar-960x960.jpg"
+                                    src="images/diseños/image 6.png"
                                     alt=""
 
                                 />
@@ -87,7 +95,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://images.ssstatic.com/lamparas-de-calle-led-300w-130lm-w-150lm-w-9517857z0-090449138.jpg"
+                                    src="images/diseños/image 7.png"
                                     alt=""
 
                                 />
@@ -95,15 +103,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="http://s.alicdn.com/@sc04/kf/Hd0daa6b5918e4a748a4601627f9cf319y.png"
-                                    alt=""
-
-                                />
-                            </div>
-                            <div>
-                                <img
-                                    className="img-fluid"
-                                    src="http://bmassolar.com/image/cache/data/products/Sistemas%20Autonomos/sistema-panel-solar-150-watts-bateria-115-ah-controlador-20-amper-inversor-450-watts-500x500.jpg"
+                                    src="images/diseños/image 8.png"
                                     alt=""
 
                                 />
@@ -111,7 +111,7 @@ const ProductsFeed = () => {
                             {/* <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvAG-0Sn2iAIy23TnglFyiLnR4saCwXHyD02gfwS6FBf3CaRIqj-lN_h0hLFTBiwzOo64&usqp=CAU"
+                                    src="images/diseños/image 1.pnghttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvAG-0Sn2iAIy23TnglFyiLnR4saCwXHyD02gfwS6FBf3CaRIqj-lN_h0hLFTBiwzOo64&usqp=CAU"
                                     alt=""
 
                                 />
@@ -119,7 +119,7 @@ const ProductsFeed = () => {
                             <div>
                                 <img
                                     className="img-fluid"
-                                    src="https://cdn.shopify.com/s/files/1/2997/4738/products/REFRIGERADOR_INDUSTRIAL_2_PUERTAS_46ft_CRT_GLOBAL_MBF8507@2x.jpg?v=1572540063"
+                                    src="images/diseños/image 9.png"
                                     alt=""
 
                                 />

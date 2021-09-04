@@ -9,8 +9,8 @@ const Contacto = () => {
                 <p>Dirección: Nicolás Bravo 341, Centro, Cd. L. Cárdenas, Mich., MX.</p>
                 <p>Teléfonos: +52 (753) 537 1349, +52 (753) 181 1195 y +52 (753) 168 3407. </p>
                 <p>Correo: 
-                    <a href="mailto:info@.com">info@.com</a><br/>
-                    <a href="mailto:@yahoos.com">@yahoos.com</a>
+                    <a href="mailto:info@icamar.com">info@icamar.com</a><br/>
+                    <a href="mailto:construccionlc@yahoo.com">construccionlc@yahoo.com</a>
                 </p>
 
                  {/* <nav class="redes-sociales">

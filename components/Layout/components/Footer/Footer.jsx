@@ -77,7 +77,7 @@ export default function Footer() {
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link">
                   <h4>ÚLTIMAS PUBLICACIONES</h4>
-                 
+
                   {/* <ul>
                     <li>
                       <a href="#">About Us</a>
@@ -104,14 +104,14 @@ export default function Footer() {
                 <div className="footer-link-contact">
                   <h4>VISITANOS EN NUESTROS SITIOS WEB</h4>
                   <ul>
-                    <li>
+                    {/* <li>
                       <p>
                         <i className="fas fa-globe"></i>
                         <a href="https://icamar.com /">
                           www.icamar.com
                         </a>
                       </p>
-                    </li>
+                    </li> */}
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
@@ -120,14 +120,14 @@ export default function Footer() {
                         </a>
                       </p>
                     </li>
-                    <li>
+                    {/* <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
                         <a href="https://albercasdelmar.com">
                           www.albercasdelmar.com
                         </a>
                       </p>
-                    </li>
+                    </li> */}
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
@@ -173,6 +173,14 @@ export default function Footer() {
                         <i className="fas fa-globe"></i>{" "}
                         <a href="https://ingenieriaconstrumex.com">
                           www.ingenieriaconstrumex.com
+                        </a>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <i className="fas fa-globe"></i>{" "}
+                        <a href="https://plafonmexy.com/">
+                          www.plafonmexy.com
                         </a>
                       </p>
                     </li>

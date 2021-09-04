@@ -9,7 +9,7 @@ const FormWork = () => {
 
                 <div className="container">
                     <h2 className="noo-sh-title" style={{ color: '#fff' }}>
-                    
+                    ¿ERES INGENIERO CIVIL O ARQUITECTO, Y BUSCAS TRABAJO?
                     </h2>
                    
                     <div className="row">
@@ -20,8 +20,8 @@ const FormWork = () => {
                         }}>
                              <p style={{ color: '#fff' }}>
                              Si deseas unirte al equipo, envía tu CV a los siguientes correos:{" "}<br/>
-                        <a href="mailto:info@.com">info@.com</a><br />
-                        <a href="mailto:@yahoos.com">@yahoos.com</a>
+                        <a href="mailto:info@icamar.com">info@icamar.com</a><br />
+                        <a href="mailto:@construccionlc@yahoo.com">@construccionlc@yahoo.com</a>
                     </p>
                             {/* <form>
                                 <div className="form-row">
@@ -75,7 +75,7 @@ const FormWork = () => {
                             <div className="banner-frame">
                                 <img
                                     className="img-thumbnail img-fluid"
-                                    src=""
+                                    src="https://www.elfinanciero.com.mx/resizer/fBB5oKla6lVmz6_B0C2_fLRdaG4=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/TYDKSTNAORGC3AE2AJFLLZEE3Y.jpg"
                                     alt=""
                                 />
                             </div>

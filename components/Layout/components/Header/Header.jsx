@@ -25,9 +25,9 @@ export default function Header() {
                 <i className="fa fa-bars"></i>
               </button>
               <a className="navbar-brand" href="/">
-                <img src="/images/logos/.png" 
+                <img src="/images/logos/logo.png" 
                 className="logo" alt=""  
-                height={80}/>
+                height={90}/>
               </a>
             </div>
 

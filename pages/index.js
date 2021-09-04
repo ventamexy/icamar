@@ -9,7 +9,6 @@ import ServiciosCalentadoresSolares from "../components/Servicios/ServiciosCalen
 import PageTitleBox from "../components/PageTitleBox/PageTitleBox";
 import Info from "../components/Info/Info";
 import Iconos from "../components/Iconos/Iconos";
-import ProductsFeed from "../components/ProductsFeed/ProductsFeed";
 import FormWork from "../components/FormWork/FormWork";
 // import InstagramFeed from "../components/Layout/components/InstagramFeed/InstagramFeed";
 // import RecipeCard from "../components/RecipeCard/RecipeCard";
@@ -23,7 +22,7 @@ export default function Home() {
       <Info />
       {/* <FlipCard /> */}
 
-      <Iconos />
+      {/* <Iconos /> */}
       {/* <ProductsFeed /> */}
 
       {/* <ShopCategories /> */}
@@ -35,7 +34,6 @@ export default function Home() {
       <Mapa />
       <FormWork />
       <Contacto />
-      {/* <ProductsFeed /> */}
     </>
   );
 }

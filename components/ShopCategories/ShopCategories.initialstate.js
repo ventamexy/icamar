@@ -20,24 +20,14 @@ const shopCategoriesInitialState = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIFzcDedEK6ZxeafvSiY3kuybr0QRlRmzhifJrRCBWEFfHUXJdeShQwLp2gpaDiFr4fk&usqp=CAU",
   },
   {
-    name: "",
-    page: "/our-services",
-    image: "",
+    name: "Llave en mano",
+    page: "/Llave-en-mano",
+    image: "https://diosparatodos.com/wp-content/uploads/2014/09/llave.jpg",
   },
   {
-    name: "",
-    page: "/our-services",
-    image: "",
-  },
-  {
-    name: "",
-    page: "/our-services",
-    image: "",
-  },
-  {
-    name: "",
-    page: "/our-services",
-    image: "",
+    name: "Seguridad",
+    page: "/Seguridad",
+    image: "https://www.edsrobotics.com/wp-content/uploads/2021/05/seguridad-industrial-industrial-1200x900.jpg",
   },
 ];
 
