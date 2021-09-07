@@ -10,7 +10,7 @@ export default function PageTitleBox() {
               Transformamos las ideas en grandes proyectos
             </h2>
             <p style={{color: '#fff'}}>
-              SOMOS UNA CONSTRUCTORA comprometida con nuestros clientes
+              SOMOS UNA CONSTRUCTORA COMPROMETIDA CON NUESTROS CLIENTES
             </p>
             <br />
             <ul className="breadcrumb">
