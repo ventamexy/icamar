@@ -107,7 +107,7 @@ const Info = () => {
                                 <br />
                                 Tenemos la capacidad de realizar proyectos especiales, tanto como en magnitud, impacto, complejidad o con requerimientos especiales.
                                 <br />
-                                Nuestro compromiso es una alta rentabilidad en los proyectos, usando de manera eficiente los recursos y adicionando un estándar alto de calidad, siendo una empresa socialmente responsable y con consciencia ambiental.
+                                Nuestro compromiso es una alta rentabilidad en los proyectos, usando de manera eficiente los recursos y adicionando un alto estándar de calidad, siendo una empresa socialmente responsable y con consciencia ambiental.
                             </p><br />
                             <p style={{
                                 color: '#fff',

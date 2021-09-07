@@ -120,35 +120,11 @@ export default function Footer() {
                         </a>
                       </p>
                     </li>
-                    {/* <li>
-                      <p>
-                        <i className="fas fa-globe"></i>{" "}
-                        <a href="https://albercasdelmar.com">
-                          www.albercasdelmar.com
-                        </a>
-                      </p>
-                    </li> */}
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
-                        <a href="https://friopolar.com">
-                          www.friopolar.com
-                        </a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <i className="fas fa-globe"></i>{" "}
-                        <a href="https://pozosriomar.com">
-                          www.pozosriomar.com
-                        </a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <i className="fas fa-globe"></i>{" "}
-                        <a href="https://georiomar.com">
-                          www.georiomar.com
+                        <a href="https://ingenieriaconstrumex.com">
+                          www.ingenieriaconstrumex.com
                         </a>
                       </p>
                     </li>
@@ -163,6 +139,14 @@ export default function Footer() {
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
+                        <a href="https://micasaproyectos.com">
+                          www.micasaproyectos.com
+                        </a>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <i className="fas fa-globe"></i>{" "}
                         <a href="https://mantenimientomicasa.com">
                           www.mantenimientomicasa.com
                         </a>
@@ -171,16 +155,16 @@ export default function Footer() {
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
-                        <a href="https://ingenieriaconstrumex.com">
-                          www.ingenieriaconstrumex.com
+                        <a href="https://georiomar.com">
+                          www.georiomar.com
                         </a>
                       </p>
                     </li>
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
-                        <a href="https://plafonmexy.com/">
-                          www.plafonmexy.com
+                        <a href="https://albercasdelmar.com">
+                          www.albercasdelmar.com
                         </a>
                       </p>
                     </li>

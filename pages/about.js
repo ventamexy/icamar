@@ -47,7 +47,7 @@ export default function About() {
                 Visión
               </p>
               <p>
-                Ser siempre de las primeras empresas en el rubro de la construcción, manteniendo nuestros estándares de calidad a la vanguardia, yendo de la mano con el avance tecnológico en todos nuestros proyectos y mantenernos en constante crecimiento ingresando a nuevos mercados, incluso internacionales.
+                Ser siempre de las primeras empresas en el rubro de la construcción, manteniendo nuestros estándares de calidad a la vanguardia, llendo de la mano con el avance tecnológico en todos nuestros proyectos y mantenernos en constante crecimiento ingresando a nuevos mercados, incluso internacionales.
               </p>
 
             </div>

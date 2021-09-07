@@ -40,8 +40,8 @@ export default function HeroSlider() {
                   <br />
                 </p>
                 <p>
-                  <a className="btn hvr-hover" href="/our-services">
-                    Servicios
+                <a className="btn hvr-hover" href="/contact-us">
+                    Contactanos
                   </a>
                 </p>
               </div>

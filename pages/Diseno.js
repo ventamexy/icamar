@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const EnergiaEolica = () => {
   return (
@@ -12,7 +13,7 @@ const EnergiaEolica = () => {
           <div className="row">
             <div className="col-lg-6">
               <p>
-                Nuestro objetivo es interpretar y darle prioridad a las necesidades de nuestros clientes, garantizando a su vez la correcta ejecución de su proyecto a través del desarrollo de soluciones a la medida según lo requiera: anteproyectos, proyecto ejecutivo, propuestas de ingeniería de detalle, coordinación BIM, cálculos, revisiones estructurales, seguimiento a obra, cuantificaciones.
+                Nuestro objetivo es interpretar y darle prioridad a las necesidades de nuestros clientes, garantizando a su vez la correcta ejecución de su proyecto a través del desarrollo de soluciones a la medida según lo requiera: anteproyectos, proyecto ejecutivo, propuestas de ingeniería de detalle, coordinación BIM, cálculos, revisiones estructurales, seguimiento a obra.
               </p>
               <div className="banner-frame">
                 <img
@@ -66,7 +67,7 @@ const EnergiaEolica = () => {
                   color: '#fff',
                   textAlign: 'justify'
                 }}>
-                  Nuestro enfoque, para cualquier proyecto está basado en la constructibilidad del mismo, pues fungimos como un área de servicio directo para una de las empresas constructoras más grandes y de mayor prestigio en el país, cuya principal línea de negocio es la construcción, acompañado de diseño como brazo ejecutor técnico de
+                Nuestro enfoque, para cualquier proyecto está basado en la constructibilidad del mismo, pues fungimos como un área de servicio directo para una de las empresas constructoras más grandes y de mayor prestigio en el país, cuya principal línea de negocio es la construcción, acompañado de diseño e ingeniería.
                 </p>
               </div >
 
@@ -137,6 +138,27 @@ const EnergiaEolica = () => {
           </div> */}
           {/* <OurTeam /> */}
           {/* <Servicios /> */}
+          <div className="actions">
+            <Link href="../">
+              <a>regresar</a>
+            </Link>
+          </div>
+          <style jsx>{`
+                       
+                       .actions {
+                         margin-top: 20px;
+                         display: flex;
+                         justify-content: flex-end;
+                        }
+                        .actions a {
+                          color: #fff;
+                          background: #f01b29;
+                          padding: 16px 24px;
+                          text-decoration: none;
+                        }
+                        
+                        `}
+          </style>
         </div>
       </div>
     </>

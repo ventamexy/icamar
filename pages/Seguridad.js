@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const EnergiaHidraulica = () => {
   return (
@@ -71,6 +72,27 @@ const EnergiaHidraulica = () => {
           </div> */}
           {/* <OurTeam /> */}
           {/* <Servicios /> */}
+          <div className="actions">
+            <Link href="../">
+              <a>regresar</a>
+            </Link>
+          </div>
+          <style jsx>{`
+                       
+                       .actions {
+                         margin-top: 20px;
+                         display: flex;
+                         justify-content: flex-end;
+                        }
+                        .actions a {
+                          color: #fff;
+                          background: #f01b29;
+                          padding: 16px 24px;
+                          text-decoration: none;
+                        }
+                        
+                        `}
+          </style>
         </div>
       </div>
     </>
