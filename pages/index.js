@@ -10,7 +10,7 @@ import PageTitleBox from "../components/PageTitleBox/PageTitleBox";
 import Info from "../components/Info/Info";
 import Iconos from "../components/Iconos/Iconos";
 import FormWork from "../components/FormWork/FormWork";
-// import InstagramFeed from "../components/Layout/components/InstagramFeed/InstagramFeed";
+import InstagramFeed from "../components/Layout/components/InstagramFeed/InstagramFeed";
 // import RecipeCard from "../components/RecipeCard/RecipeCard";
 import FlipCard from "../components/FlipCard/FlipCard";
 
@@ -30,10 +30,10 @@ export default function Home() {
       {/* <ServiciosCalentadores /> */}
       {/* <ServiciosCalentadoresSolares /> */}
       {/* <FeaturedProducts /> */}
-      {/* <InstagramFeed /> */}
       <Mapa />
       <FormWork />
       <Contacto />
+      <InstagramFeed />
     </>
   );
 }
