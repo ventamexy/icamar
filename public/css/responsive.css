@@ -203,8 +203,7 @@
     }
 }
 
-
-@media only screen and (min-width: 280px) and (max-width: 599px) {
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
      .navbar-light .navbar-toggler{
          /* border-color: #353535; */
          color: #91009e;

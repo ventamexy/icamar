@@ -16,7 +16,7 @@ export default function PageTitleBox() {
             <ul className="breadcrumb">
               <li className="breadcrumb-item">
                 <i className="fa fa-phone" />{" "}
-                <a href="contact-us">contactanos</a>
+                <a href="contact-us">Contáctanos</a>
               </li>
             </ul>
           </div>

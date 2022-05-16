@@ -9,70 +9,38 @@ export default function TopBar() {
             <div className="text-slid-box">
               <div id="offer-box" className="carouselTicker">
                 <p></p>
-                <ul className="offer-box">
-                  <li>
-                    
-                  </li>
-                  <li>
-                  
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                  {/* 
-                  <li>
-                    >
-                  <li>
-                    >
-                  <li>
-                                     </li>
-                  <li>
-                     */}
-                </ul>
-                
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            {/* <div className="custom-select-box">
-              <select
-                id="basic"
-                className="selectpicker show-tick form-control"
-                data-placeholder="$ USD"
-              >
-                <option>¥ JPY</option>
-                <option>$ USD</option>
-                <option>€ EUR</option>
-              </select>
-            </div> */}
             <div className="right-phone-box">
               <p>
-                Contactanos:{" "}  
+                Contáctanos:{" "}
                 <i className="fa fa-phone"></i>{" "}
                 <a href="tel:7535371349"> +52 (753) 537 1349 </a>
-               
               </p>
             </div>
             <div className="our-link">
               <ul>
                 <li>
-                  <a href="#" target="blank"><i class="fab fa-facebook" /></a>
-                  {/* <a href="#">My Account</a> */}
+                  <a href="#" target="blank">
+                    <i className="fab fa-facebook"/>
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-whatsapp" /></a>
-                  {/* <a href="#">Our location</a> */}
+                  <a href="#">
+                    <i className="fab fa-whatsapp" />
+                  </a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram" /></a>
-                  {/* <a href="#">Contact Us</a> */}
+                  <a href="#">
+                    <i className="fab fa-instagram" />
+                  </a>
                 </li>
                 <li>
-                  <a href="mailto:info@icamar.com"><i class="fas fa-envelope"/>{" "}info@icamar.com</a>
-                  {/* <a href="#">Contact Us</a> */}
+                  <a href="mailto:info@icamar.com">
+                    <i className="fas fa-envelope" />{" "}info@icamar.com
+                  </a>
                 </li>
               </ul>
             </div>

@@ -105,68 +105,27 @@ const Terracerías = () => {
                 </ul>
               </p>
             </div>
-            {/* <div className="col-lg-6">
-              <div className="banner-frame">
-                <img
-                  className="img-thumbnail img-fluid"
-                  src="images/nosotros/11.jpg"
-                  alt=""
-                />
-              </div>
-            </div> */}
           </div>
-
-          {/* <div className="row my-5">
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Trusted</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Professional</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Expert</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div> */}
-          {/* <OurTeam /> */}
-          {/* <Servicios /> */}
           <div className="actions">
             <Link href="../">
               <a>regresar</a>
             </Link>
           </div>
-          <style jsx>{`
-                       
-                       .actions {
-                         margin-top: 20px;
-                         display: flex;
-                         justify-content: flex-end;
-                        }
-                        .actions a {
-                          color: #fff;
-                          background: #f01b29;
-                          padding: 16px 24px;
-                          text-decoration: none;
-                        }
-                        
-                        `}
+          <style jsx>
+            {
+            `
+              .actions {
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+              }
+              .actions a {
+                color: #fff;
+                background: #f01b29;
+                padding: 16px 24px;
+                text-decoration: none;
+              }
+            `}
           </style>
         </div>
       </div>

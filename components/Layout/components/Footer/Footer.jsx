@@ -40,32 +40,6 @@ export default function Footer() {
                         <i className="fab fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
-                    {/* <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i
-                          className="fab fa-google-plus"
-                          aria-hidden="true"
-                        ></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-rss" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i
-                          className="fab fa-pinterest-p"
-                          aria-hidden="true"
-                        ></i>
-                      </a>
-                    </li> */}
                     <li>
                       <a href="#">
                         <i className="fab fa-whatsapp" aria-hidden="true"></i>
@@ -77,41 +51,27 @@ export default function Footer() {
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link">
                   <h4>ÚLTIMAS PUBLICACIONES</h4>
-                  <div class="fb-page" data-href="https://www.facebook.com/Icamar.Mexico" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Icamar.Mexico" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Icamar.Mexico">Icamar Constructora</a></blockquote></div>
-                  {/* <ul>
-                    <li>
-                      <a href="#">About Us</a>
-                    </li>
-                    <li>
-                      <a href="#">Customer Service</a>
-                    </li>
-                    <li>
-                      <a href="#">Our Sitemap</a>
-                    </li>
-                    <li>
-                      <a href="#">Terms &amp; Conditions</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">Delivery Information</a>
-                    </li>
-                  </ul> */}
+                  <div 
+                  className="fb-page" 
+                  data-href="https://www.facebook.com/Icamar.Mexico" 
+                  data-tabs="timeline" 
+                  data-width="" 
+                  data-height="" 
+                  data-small-header="false" 
+                  data-adapt-container-width="true" 
+                  data-hide-cover="false" 
+                  data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/Icamar.Mexico" 
+                    className="fb-xfbml-parse-ignore">
+                      <a href="https://www.facebook.com/Icamar.Mexico">Icamar Constructora</a>
+                    </blockquote>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-link-contact">
                   <h4>VISITANOS EN NUESTROS SITIOS WEB</h4>
                   <ul>
-                    {/* <li>
-                      <p>
-                        <i className="fas fa-globe"></i>
-                        <a href="https://icamar.com /">
-                          www.icamar.com
-                        </a>
-                      </p>
-                    </li> */}
                     <li>
                       <p>
                         <i className="fas fa-globe"></i>{" "}
@@ -169,9 +129,6 @@ export default function Footer() {
                       </p>
                     </li>
                   </ul>
-
-
-
                 </div>
               </div>
             </div>

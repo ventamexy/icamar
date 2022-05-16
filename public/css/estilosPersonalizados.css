@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden!important;
+}
+
 .b-b-3px-cp {
     border-bottom: 3px solid var(--color-secundario);
 }
