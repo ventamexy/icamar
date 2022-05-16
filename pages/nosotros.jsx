@@ -20,7 +20,59 @@ const OurTeam = dynamic(
 export default function About() {
   return (
     <>
-      <PageTitleBox />
+      <PageTitleBox/>
+      <div className="container">
+        <div class="row justify-content-center">
+            <div className="col-12">
+              <h1 className="titulo-principal">ICAMAR</h1>
+            </div>
+            <p className="subtitulo b-b-3px-cp">Urbanización e Infraestructura</p>
+        </div>
+        <div className="row justify-content-center mt-5">
+          <ul class="list-group">
+            <li class="list-group-item item-ul-activo" aria-current="true">
+              <i className="fa fa-check"></i>
+              Obras Marítimas
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Vias Ferreas
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Pavimentación y Asfalto
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Terracerías
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Infraestructura
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Buceo Ind.
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Mantenimiento a Equipos Electrónico Marino
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Mantenimiento Naval
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Revestimiento
+            </li>
+            <li class="list-group-item">
+              <i className="fa fa-check"></i>
+              Alumbrado Público
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="about-box-main">
         <div className="container">
           <h2 className="noo-sh-title">
@@ -49,17 +101,7 @@ export default function About() {
               <p>
                 Ser siempre de las primeras empresas en el rubro de la construcción, manteniendo nuestros estándares de calidad a la vanguardia, llendo de la mano con el avance tecnológico en todos nuestros proyectos y mantenernos en constante crecimiento ingresando a nuevos mercados, incluso internacionales.
               </p>
-
             </div>
-            {/* <div className="col-lg-6">
-              <div className="banner-frame">
-              <img
-              className="img-thumbnail img-fluid"
-              src="images/nosotros/11.jpg"
-              alt=""
-              />
-              </div>
-            </div> */}
           </div>
           <div className="row my-5">
             <div className="col-lg-6">
@@ -69,52 +111,17 @@ export default function About() {
               <p>
               </p>
               <p>
-
               </p>
             </div>
             <div className="col-lg-6">
               <h2 className="noo-sh-title">
                 <span></span>
               </h2>
-
             </div>
           </div>
-          {/* <div className="row my-5">
-            <div className="col-sm-6 col-lg-4">
-            <div className="service-block-inner">
-            <h3>We are Trusted</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-            <div className="service-block-inner">
-            <h3>We are Professional</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-            <div className="service-block-inner">
-            <h3>We are Expert</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            </div>
-            </div>
-            </div>
-          <OurTeam /> */}
-          {/* <Servicios /> */}
         </div>
       </div>
-      <FormWork />
-
-
+      <FormWork/>
     </>
   );
 }

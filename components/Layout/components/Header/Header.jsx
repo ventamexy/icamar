@@ -20,90 +20,42 @@ export default function Header() {
                 data-target="#navbar-menu"
                 aria-controls="navbars-rs-food"
                 aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+                aria-label="Toggle navigation">
                 <i className="fa fa-bars"></i>
               </button>
               <a className="navbar-brand" href="/">
                 <img src="/images/logos/logo.png" 
-                className="logo" alt=""  
+                className="logo" 
+                alt=""  
                 height={90}/>
               </a>
             </div>
-
             <div className="collapse navbar-collapse" id="navbar-menu">
               <ul
                 className="nav navbar-nav ml-auto"
                 data-in="fadeInDown"
-                data-out="fadeOutUp"
-              >
-                {/* <li className="nav-item">
+                data-out="fadeOutUp">
+                <li className="nav-item">
                   <Link href="/">
                     <a className="nav-link">Inicio</a>
                   </Link>
-                </li> */}
+                </li>
                 <li className="nav-item">
-                  <Link href="/about">
+                  <Link href="/nosotros">
                     <a className="nav-link">Nosotros</a>
                   </Link>
                 </li>
-                {/* <li className="dropdown">
-                  <a
-                    href="#"
-                    className="nav-link dropdown-toggle arrow"
-                    data-toggle="dropdown"
-                  >
-                    SHOP
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <Link href="/cart">
-                        <a>Cart</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/checkout">
-                        <a>Checkout</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/my-account">
-                        <a>My Account</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/wishlist">
-                        <a>Wishlist</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="shop-detail.html">Shop Detail</a>
-                    </li>
-                  </ul>
-                </li> */}
                 <li className="nav-item">
-                    <a className="nav-link"  href="/galery">Galeria</a>
+                  <a className="nav-link"
+                  href="/galeria">Galeria</a>
                 </li>
                 <li className="nav-item">
-                  <Link href="/contact-us">
+                  <Link href="/contacto">
                     <a className="nav-link">Contacto</a>
                   </Link>
                 </li>
               </ul>
             </div>
-
-            {/* <div className="attr-nav">
-              <ul>
-                <li className="side-menu">
-                  <Link href="/cart">
-                    <a>
-                      <i className="fa fa-shopping-bag"></i>
-                      <span className="badge">{cartItemsCount}</span>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
           </div>
         </nav>
       </header>

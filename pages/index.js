@@ -14,26 +14,16 @@ import InstagramFeed from "../components/Layout/components/InstagramFeed/Instagr
 // import RecipeCard from "../components/RecipeCard/RecipeCard";
 import FlipCard from "../components/FlipCard/FlipCard";
 
-
 export default function Home() {
   return (
     <>
-      <HeroSlider />
-      <Info />
-      {/* <FlipCard /> */}
-
-      {/* <Iconos /> */}
-      {/* <ProductsFeed /> */}
-
-      {/* <ShopCategories /> */}
-      <PageTitleBox />
-      {/* <ServiciosCalentadores /> */}
-      {/* <ServiciosCalentadoresSolares /> */}
-      {/* <FeaturedProducts /> */}
-      <Mapa />
-      <FormWork />
-      <Contacto />
-      <InstagramFeed />
+      <HeroSlider/>
+      <Info/>
+      <PageTitleBox/>
+      <Mapa/>
+      <FormWork/>
+      <Contacto/>
+      <InstagramFeed/>
     </>
   );
 }

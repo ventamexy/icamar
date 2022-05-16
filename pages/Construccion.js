@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 const EnergiaFotovoltaica = () => {
   return (
-    <>
       <div className="about-box-main">
         <div className="container">
           <h2 className="noo-sh-title">
@@ -12,7 +11,6 @@ const EnergiaFotovoltaica = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="service-block-inner">
-                {/* <h3>We are Expert</h3> */}
                 <p>
                   Somos una constructora con más de 30 años de experiencia comprometidos con la calidad y seguridad en las obras que participamos.
                 </p>
@@ -81,66 +79,33 @@ const EnergiaFotovoltaica = () => {
                 Nuestro compromiso es una alta rentabilidad en los proyectos, usando de manera eficiente los recursos y adicionando un estándar alto de calidad, siendo una empresa socialmente responsable y con consciencia ambiental.
               </p>
             </div>
-
-
-            
           </div>
 
-          {/* <div className="row my-5">
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Trusted</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Professional</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
-                <h3>We are Expert</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div> */}
-          {/* <OurTeam /> */}
-          {/* <Servicios /> */}
           <div className="actions">
             <Link href="../">
               <a>regresar</a>
             </Link>
           </div>
-          <style jsx>{`
+          
+          <style jsx>
+            {`
                        
-                       .actions {
-                         margin-top: 20px;
-                         display: flex;
-                         justify-content: flex-end;
-                        }
-                        .actions a {
-                          color: #fff;
-                          background: #f01b29;
-                          padding: 16px 24px;
-                          text-decoration: none;
-                        }
+              .actions {
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-end;
+              }
+              .actions a {
+                color: #fff;
+                background: #f01b29;
+                padding: 16px 24px;
+                text-decoration: none;
+              }
                         
-                        `}
+            `}
           </style>
         </div>
       </div>
-    </>
   );
 }
 

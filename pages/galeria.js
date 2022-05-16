@@ -3,58 +3,51 @@ import React from "react";
 // import Image from 'next/image';
 
 export default function Gallery() {
-//   let { t } = useTranslation()
-  // setTimeout('document.location.reload()',10000);
-    const images = [
-     
-      "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "https://www.berdinodiaz.com/wp-content/uploads/2019/06/empresa.jpg",
-      "http://qualityconstructora.com/wp-content/uploads/2015/02/ind.jpg",
-      "https://www.aceroform.com.mx/wp-content/uploads/2020/10/banner-construccion-1024x679.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwz_rmia3YmtDGg-6TL-Xz4TWs6f6RucEIw&usqp=CAU",
-      "https://andujarynavarro.com/wp-content/uploads/2019/01/EMPRESA-CONSTRUCTORA-1030x380.jpg",
-    ];
 
-    
-  
-    return (
-      <div className="about-box-main">
-      
+  const images = [
+    "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://www.berdinodiaz.com/wp-content/uploads/2019/06/empresa.jpg",
+    "http://qualityconstructora.com/wp-content/uploads/2015/02/ind.jpg",
+    "https://www.aceroform.com.mx/wp-content/uploads/2020/10/banner-construccion-1024x679.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwz_rmia3YmtDGg-6TL-Xz4TWs6f6RucEIw&usqp=CAU",
+    "https://andujarynavarro.com/wp-content/uploads/2019/01/EMPRESA-CONSTRUCTORA-1030x380.jpg",
+  ];
+
+  return (
+    <div className="about-box-main">
+
       <div className="container">
-        {/* <h2 className="noo-sh-title">{t("common:titleGallery")}</h2> */}
         <div className="swiper-container mySwiper2 color-nav">
           <div className="swiper-wrapper">
-          {images.map((pic)=>
-          <div className="swiper-slide" >
-            <img 
-              src={pic}
-              width={1000}
-              height={600}
-              />
-            
-              {/* {pic} */}
-            </div>
-          )}
-          </div> 
+            {images.map((pic) =>
+              <div className="swiper-slide" >
+                <img
+                  src={pic}
+                  width={1000}
+                  height={600}
+                />
+              </div>
+            )}
+          </div>
           <div className="swiper-button-next" />
           <div className="swiper-button-prev" />
         </div>
-        <div  className="swiper-container mySwiper">
+        <div className="swiper-container mySwiper">
           <div className="swiper-wrapper">
-              {images.map((pic)=>
+            {images.map((pic) =>
               <div className="swiper-slide" >
-                <img 
+                <img
                   src={pic}
                   width={500}
                   height={400}
-                  />
-                  {/* {pic} */}
-                </div>
-          )}
+                />
+                {/* {pic} */}
+              </div>
+            )}
           </div>
         </div>
-        
+
         <style jsx>{`
          html,
          body {
@@ -150,6 +143,6 @@ export default function Gallery() {
          `}
         </style>
       </div>
-      </div>
-    );
-  }
+    </div>
+  );
+}

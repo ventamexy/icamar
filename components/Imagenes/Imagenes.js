@@ -31,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TitlebarGridList() {
   const classes = useStyles();
-
   return (
     <div className={classes.root}>
       <GridList cellHeight={300}  spacing={30} className={classes.gridList}>

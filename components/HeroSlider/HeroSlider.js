@@ -33,7 +33,7 @@ export default function HeroSlider() {
               <div className="col-md-12">
                 <h1 className="m-b-20">
                   <strong>
-                    Transformamos las ideas en grandes proyectos<br />
+                    TRANSFORMAMOS LAS IDEAS EN GRANDES PROYECTOS<br />
                   </strong>
                 </h1>
                 <p className="m-b-40">

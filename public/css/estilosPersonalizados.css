@@ -1,0 +1,17 @@
+.b-b-3px-cp {
+    border-bottom: 3px solid var(--color-secundario);
+}
+
+.list-group-item.item-ul-activo {
+    color: #FFF!important;
+    background-color: var(--color-secundario)!important;
+    border-color: var(--color-secundario)!important;
+}
+
+li {
+    cursor: pointer;
+}
+
+ul li i {
+    margin-right: 5px;
+}
