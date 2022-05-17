@@ -22,51 +22,51 @@ export default function About() {
     <>
       <PageTitleBox/>
       <div className="container">
-        <div class="row justify-content-center">
+        <div className="row justify-content-center">
             <div className="col-12">
               <h1 className="titulo-principal">ICAMAR</h1>
             </div>
             <p className="subtitulo b-b-3px-cp">Urbanización e Infraestructura</p>
         </div>
         <div className="row justify-content-center mt-5">
-          <ul class="list-group">
-            <li class="list-group-item item-ul-activo" aria-current="true">
+          <ul className="list-group">
+            <li className="list-group-item item-ul-activo" aria-current="true">
               <i className="fa fa-check"></i>
               Obras Marítimas
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Vias Ferreas
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Pavimentación y Asfalto
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Terracerías
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Infraestructura
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Buceo Ind.
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Mantenimiento a Equipos Electrónico Marino
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Mantenimiento Naval
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Revestimiento
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               <i className="fa fa-check"></i>
               Alumbrado Público
             </li>
